@@ -50,4 +50,4 @@ async def on_message(message):
             help.set_footer(text='AMEDASUBOT ver.0.0.1α')
             await client.send_message(message.channel, embed=help)
 
-client.run("NzE1NDE3MTMxNjI1MjE4MTE4.Xs86tQ.B9veSW5RXvO9rxF7VGGezLwbeiU")
+client.run("NzE1NDE3MTMxNjI1MjE4MTE4.Xtnf_Q.v5awWJo1bX7VqCdsWcl7wndfjEQ")
