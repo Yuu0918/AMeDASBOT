@@ -1,0 +1,5 @@
+Discord.py
+(c) Rapptz
+
+URL: https://github.com/Rapptz/discord.py
+
