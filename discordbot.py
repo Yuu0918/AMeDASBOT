@@ -32,7 +32,7 @@ async def on_message(message):
     if message.content.startswith("!help"):
         if client.user != message.author:
             help = discord.Embed(title = 'アメダスBOTの使い方', description = 'Yuu_0918が勉強用に作ったBOTです\r詳しい使い方はYuu_0918に聞いてください...', color=0x189c1f)
-            help.set_author(name = '綾波BOT', icon_url = 'https://github.com/Yuu0918/test/blob/master/ayanami.png?raw=true')
+            help.set_author(name = 'アメダスBOT', icon_url = 'https://github.com/Yuu0918/test/blob/master/ayanami.png?raw=true')
             help.add_field(name='!help', value='ヘルプを表示します。', inline=False)
             help.add_field(name='!update', value='前回のアップデート内容を表示します', inline=False)
             help.add_field(name='!nextupdate', value='次回のアップデートの日付と内容を表示します', inline=False)
@@ -50,4 +50,4 @@ async def on_message(message):
             help.set_footer(text='AMEDASUBOT ver.0.0.1α')
             await client.send_message(message.channel, embed=help)
 
-client.run("NzE1NDE3MTMxNjI1MjE4MTE4.Xtnf_Q.v5awWJo1bX7VqCdsWcl7wndfjEQ")
+client.run("TOKEN")
